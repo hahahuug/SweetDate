@@ -1,0 +1,94 @@
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-container {
+    flex-grow: 1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#text-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-slide {
+    display: none;
+    text-align: center;
+    font-size: 24px;
+}
+
+.slider-controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#prev-slide,
+#next-slide {
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.info-input {
+    flex-basis: 40%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Цвет фона шапки */
+    padding: 10px 20px; /* Внутренние отступы шапки */
+}
+
+.logo img {
+    width: 300px; /* Замените на нужную ширину для вашего логотипа */
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px; /* Расстояние между пунктами меню */
+    position: relative;
+}
+
+.menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff; /* Цвет фона выпадающего меню */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Тень выпадающего меню */
+}
+
+.menu li:hover .dropdown-menu {
+    display: block; /* Показывать выпадающее меню при наведении на элемент */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000; /* Цвет текста ссылок в меню */
+}
+
+.menu a:hover {
+    color: #ff0000; /* Цвет текста ссылок в меню при наведении */
+}
+
+
+.main{
+    background: #ffffff;
+}

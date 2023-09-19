@@ -1,0 +1,47 @@
+@model SweetDate.Domain.ViewModel.PersonViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/detail.css" asp-append-version="true"/>
+
+</head>
+
+<header>
+    
+    <div class="header-buttons">
+        <form asp-controller="Profil" asp-action="Logout">
+            <button asp-action="Logout" asp-controller="Profil" class="exit-button">Exit</button>
+        </form>
+        <a href="@Url.Action("SearchHome", "Person")" class="btn btn-back">Back</a>
+    </div>
+</header>
+
+<body>
+
+<div class="user-profile">
+    <div class="avatar-container">
+        <img src="@Model.Avatar" alt="User Avatar" class="user-avatar" />
+    </div>
+    <div class="user-details">
+        <p><strong>Gender:</strong> @Model.Gender</p>
+        <p><strong>Looking for:</strong> @Model.LookingGender</p>
+        <p><strong>Age:</strong> @Model.Age</p>
+        <p><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Telegram:</strong> @Model.Tg</p>
+        <p><strong>City:</strong> @Model.City</p>
+        <p><strong>Country:</strong> @Model.Country</p>
+    </div>
+</div>
+
+<a href="@Url.Action("Edit", "Person")" class="btn btn-edit">Edit</a>
+
+</body>

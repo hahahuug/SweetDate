@@ -1,0 +1,174 @@
+﻿
+@model SweetDate.Domain.ViewModel.RegisterViewModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true"/>
+
+</head>
+
+<header>
+        <div class="header-buttons">
+            <button class="login-button">Log In</button>
+            <button class="signup-button">Sign Up</button>
+        </div>
+</header>
+
+<body>
+<div class="all">
+    <div class="register-main">
+        <form asp-controller="Profil" asp-action="Register" method="post">
+            <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
+            <div class="info-input">
+                <h1 class="large-text">Create an account</h1>
+                <p class="text">Registering for this site is easy, just fill in the fields below and we will get a new account set up for you in no time</p>
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <div class="input-content">
+                        <input asp-for="Username" class="form-control textbox-dg font-weight-bold text-center" placeholder="Required" type="text">
+                        @* <input type="text" id="username" name="username" placeholder="Required"> *@
+                    </div>
+                </div>
+            
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <div class="input-content">
+                        <input asp-for="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Required" type="text">
+                    </div>
+                </div>
+            
+
+                <div class="input-group">
+                    <label for="emailAddress">Email Address:</label>
+                    <div class="input-content">
+                        <input asp-for="Login" class="form-control textbox-dg font-weight-bold text-center" placeholder="Required" type="text">
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-content">
+                        <label for="password">Password:</label>
+                        <div class="input-content">
+                            <input autocomplete="new-password" asp-for="Password" placeholder="Required" id="password" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                            <input autocomplete="new-password" asp-for="PasswordConfirm" placeholder="Required" id="confirm-password" class="form-control textbox-dg font-weight-bold text-center" type="password">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-content">
+                        <button class="button" type="submit"><img src="https://cdn.icon-icons.com/icons2/1622/PNG/512/3741756-bussiness-ecommerce-marketplace-onlinestore-store-user_108907.png" alt="user" style="width: 20px; height: 20px;"/> Sign Up</button>
+                        <button class="small-button" type="button"><img src="https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png" alt="user" style="width: 20px; height: 20px;"/></button>
+
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <div class="register-footer">
+            <strong>Latest registered members</strong>
+        </div>
+    </div>
+</div>
+
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <form asp-controller="Profil" asp-action="Login" method="post">
+            <span class="close" id="login-close">&times;</span>
+            <div class="modal-login-top">
+                <p class="modal-top">SIGN INTO YOUR ACCOUNT</p>
+                <button id="create-account-button">CREATE A NEW ACCOUNT</button>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <input asp-for="Username" class="username-modal" placeholder="Username" id="user-modal" type="text">
+                </div>
+                <div class="input-content-modal">
+                    <input autocomplete="new-password" asp-for="Password" placeholder="Desired password" id="password-modal" class="password-modal" type="password">
+                </div>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <button class="login-button-modal" type="submit"><img src="https://cdn.icon-icons.com/icons2/1883/PNG/512/openlock_120634.png" alt="user" style="width: 20px; height: 20px;"/> LOG IN</button>
+                    <button class="facebook-button-modal" type="button"><img src="https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png" alt="user" style="width: 20px; height: 20px;"/> LOG IN WITH Facebook</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="signup-modal" class="modal">
+    <div class="modal-content">
+        <form asp-controller="Profil" asp-action="Register">
+            <span class="close" id="signup-close">&times;</span>
+            <div class="modal-login-top">
+                <p class="modal-top">CREATE ACCOUNT</p>
+                <button id="already-have-button">ALREADY HAVE AN ACCOUNT?</button>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <input asp-for="Username" class="username-modal" placeholder="Username" id="user-modal" type="text">
+                </div>
+                <div class="input-content-modal">
+                    <input asp-for="Name" class="name-modal" placeholder="Your full name" id="name-modal" type="text">
+                </div>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <input asp-for="Login" class="email-modal" placeholder="Your email" id="email-modal" type="text">
+                </div>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <input autocomplete="new-password" asp-for="Password" placeholder="Desired password" id="password-modal" class="password-modal" type="password">
+                </div>
+                <div class="input-content-modal">
+                    <input autocomplete="new-password" asp-for="PasswordConfirm" placeholder="Confirm password" id="confirm-password-modal" class="confirm-password-modal" type="password">
+                </div>
+            </div>
+            <div class="input-group-modal">
+                <div class="input-content-modal">
+                    <button class="create-account-button-modal" type="submit"><img src="https://cdn.icon-icons.com/icons2/38/PNG/512/like_favorite_heart_5759.png" alt="user" style="width: 20px; height: 20px;"/> CREATE MY ACCOUNT</button>
+                    <button class="facebook-button-modal" type="button"><img src="https://cdn.icon-icons.com/icons2/792/PNG/512/FB_icon-icons.com_65534.png" alt="user" style="width: 20px; height: 20px;"/> Facebook</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+<div class="validation-errors">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger" role="alert">
+            <strong>Validation Errors:</strong>
+            <ul>
+                @foreach (var key in ViewData.ModelState.Keys)
+                {
+                    foreach (var error in ViewData.ModelState[key].Errors)
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                }
+            </ul>
+        </div>
+    }
+</div>
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.Service.deps.json
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.Service.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.Service.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.DAL.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.DAL.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\bin\Debug\net6.0\SweetDate.Domain.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.csproj.AssemblyReference.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.AssemblyInfoInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.AssemblyInfo.cs
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.csproj.CoreCompileInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.csproj.CopyComplete
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\refint\SweetDate.Service.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\SweetDate.Service.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Service\obj\Debug\net6.0\ref\SweetDate.Service.dll

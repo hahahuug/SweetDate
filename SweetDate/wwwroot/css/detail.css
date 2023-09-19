@@ -1,0 +1,72 @@
+
+
+.header-buttons {
+    position: absolute;
+    top: 60px;
+    right: 300px;
+}
+
+.exit-button{
+    background-color: #E6E6E6;
+    color: #1D1D1D;
+    border: 1px solid #E6E6E6;
+}
+
+.btn-back {
+    border: 1px solid #743349;
+    background: #743349;
+    color: #ffffff;
+    position: absolute;
+    bottom: -2px;
+    left: 40px;
+    width: 75px;
+    height: 33px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.first{
+    background: linear-gradient(to bottom, #9a2259, #d29eb0);
+}
+
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    background: #f8f8f8 url(data:image/gif;base64,R0lGODlhBgAGAJEAAPX19fPz8/j4+Pr6+iH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QkI0OTBFNEMxNEZGMTFFMThENDY5OUU2NTRBOEM2RTAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QkI0OTBFNEQxNEZGMTFFMThENDY5OUU2NTRBOEM2RTAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpCQjQ5MEU0QTE0RkYxMUUxOEQ0Njk5RTY1NEE4QzZFMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpCQjQ5MEU0QjE0RkYxMUUxOEQ0Njk5RTY1NEE4QzZFMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAGAAYAAAIMVDYCGYb8jHMJnFgAADs=);
+}
+
+
+.avatar-container {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    margin-right: 20px; 
+}
+
+
+.user-avatar {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+
+.user-details {
+    color: #2c3034; 
+}
+
+.btn-edit {
+    background-color: #743349;
+    color: white;
+    border: 1px solid #743349;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+

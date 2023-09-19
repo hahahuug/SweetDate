@@ -1,0 +1,31 @@
+@model SweetDate.Domain.ViewModel.PersonViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/css/getPerson.css" asp-append-version="true"/>
+</head>
+
+@if (Model != null)
+{
+    <p>Id: @Model.Id</p>
+    <p>Gender: @Model.Gender</p>
+    <p>Looking Gender: @Model.LookingGender</p>
+    <p>Age: @(Model.Age)</p>
+    <p>Description: @Model.Description</p>
+    <p>Tg: @Model.Tg</p>
+    <p>City: @Model.City</p>
+    <p>Country: @Model.Country</p>
+}
+else
+{
+    <p>Profile data not available.</p>
+}

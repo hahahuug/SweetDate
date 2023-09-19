@@ -1,0 +1,14 @@
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\bin\Debug\net6.0\SweetDate.Domain.deps.json
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\bin\Debug\net6.0\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\bin\Debug\net6.0\SweetDate.Domain.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.csproj.AssemblyReference.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.AssemblyInfoInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.AssemblyInfo.cs
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.csproj.CoreCompileInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\refint\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\ref\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\bin\Debug\net6.0\SweetDate.Domain.runtimeconfig.json
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.Domain\obj\Debug\net6.0\SweetDate.Domain.genruntimeconfig.cache

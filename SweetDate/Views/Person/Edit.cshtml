@@ -1,0 +1,67 @@
+@model SweetDate.Domain.ViewModel.PersonViewModel
+@Html.AntiForgeryToken()
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/edit.css" asp-append-version="true"/>
+
+</head>
+
+<body>
+<form asp-controller="Person" asp-action="Edit" enctype="multipart/form-data" id="formPerson">
+    <div class="form-group">
+        <label asp-for="Gender" class="col-form-label">Gender:</label>
+        <select class="form-control" asp-for="Gender">
+            <option value="Woman" selected="@(Model.Gender == "Woman")">Woman</option>
+            <option value="Man" selected="@(Model.Gender == "Man")">Man</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="LookingGender" class="col-form-label">Looking gender:</label>
+        <select class="form-control" asp-for="LookingGender">
+            <option value="Woman" selected="@(Model.LookingGender == "Woman")">Woman</option>
+            <option value="Man" selected="@(Model.LookingGender == "Man")">Man</option>
+        </select>
+    </div>
+    
+    <div class="row">
+        <div class="form-group">
+            <label asp-for="Age" class="col-form-label">Age:</label>
+            <input class="form-control" asp-for="Age" value="@Model.Age" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-form-label">Description:</label>
+            <textarea class="form-control" asp-for="Description" value="@Model.Description"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="form-group">
+            <label asp-for="Tg" class="col-form-label">Telegram:</label>
+            <input class="form-control" asp-for="Tg" value="@Model.Tg" />
+        </div>
+        <div class="form-group">
+            <label asp-for="City" class="col-form-label">City:</label>
+            <input class="form-control" asp-for="City" value="@Model.City" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Country" class="col-form-label">Country:</label>
+            <input class="form-control" asp-for="Country" value="@Model.Country" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Avatar" class="col-form-label">Avatar:</label>
+            <input class="form-control" asp-for="Avatar" value="@Model.Avatar" />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+</body>

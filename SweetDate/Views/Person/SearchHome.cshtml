@@ -1,0 +1,94 @@
+@model SweetDate.Domain.ViewModel.SearchViewModel
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true"/>
+</head>
+
+<header>
+    
+    <div class="header-buttons">
+        <form asp-controller="Profil" asp-action="Logout">
+            <button asp-action="Logout" asp-controller="Profil" class="exit-button">Exit</button>
+        </form>
+        <a href="@Url.Action("Detail", "Person")" class="btn btn-profile">Profile</a>
+    </div>
+</header>
+
+<body>
+<div class="all">
+    <div class="register-main">
+        <div class="content-container">
+            <div class="info-input">
+                <p class="text">Serious dating with Sweet date. Your perfect match is just a click away.</p>
+    
+                <form asp-controller="Person" asp-action="SearchHome" method="post">
+                    <div class="input-group">
+                        <label for="gender">I am:</label>
+                        <div class="input-content">
+                            <select id="gender" name="Gender">
+                                <option value="woman">Woman</option>
+                                <option value="man">Man</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="looking-gender">Looking For a:</label>
+                        <div class="input-content">
+                            <select id="looking-gender" name="LookingGender">
+                                <option value="Woman">Woman</option>
+                                <option value="Man">Man</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <div class="input-content">
+                            <label for="age-from-select">Age:</label>
+                            <select id="age-from-select" name="AgeFrom">
+                                <option value="">18</option>
+                                @for (var i = 18; i <= 75; i++)
+                                {
+                                    <option value="@i">@i</option>
+                                }
+                            </select>
+                            <span class="dash"> - </span>
+                            <select id="age-to-select" name="AgeTo">
+                                <option value="">75</option>
+                                @for (var i = 18; i <= 75; i++)
+                                {
+                                    <option value="@i">@i</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="input-group">
+                        <label for="city">City:</label>
+                        <div class="input-content">
+                            <input type="text" id="city" name="City" placeholder="City" style="color: white">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-search"><img src="https://cdn.icon-icons.com/icons2/868/PNG/512/magnifier_icon-icons.com_67993.png" alt="user" style="width: 20px; height: 20px;"/>Search</button>
+                </form>
+            </div>
+    
+            <div class="register-footer">
+                <strong>Latest registered members</strong>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

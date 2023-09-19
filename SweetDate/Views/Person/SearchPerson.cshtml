@@ -1,0 +1,52 @@
+@model IEnumerable<SweetDate.Domain.ViewModel.PersonViewModel>
+
+@{
+    ViewData["Title"] = "Results Page";
+    Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - SweetDate</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/css/searchPerson.css" asp-append-version="true"/>
+
+</head>
+
+<header>
+    
+    <div class="header-buttons">
+        <form asp-controller="Profil" asp-action="Logout">
+            <button asp-action="Logout" asp-controller="Profil" class="exit-button">Exit</button>
+        </form>
+        <a href="@Url.Action("SearchHome", "Person")" class="btn btn-back">Back</a>
+    </div>
+</header>
+
+<body>
+
+@if (Model != null && Model.Any())
+{
+    <div class="user-container">
+        @foreach (var person in Model)
+        {
+            <div class="user-card">
+                 <img src="@person.Avatar" alt="User Avatar"/>
+                <p> @person.Name</p>
+                <p>Age: @person.Age</p>
+                <p>Country: @person.Country</p>
+                <p>City: @person.City</p>
+                <p>Description: @person.Description</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No results found.</p>
+}
+
+
+</body>

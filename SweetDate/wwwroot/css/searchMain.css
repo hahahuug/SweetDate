@@ -1,0 +1,28 @@
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.input-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+select, input {
+    width: 48%;
+}
+
+.input-group label {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    text-align: left;
+    min-width: 100px;
+}
+
+.dash {
+    margin: 0 5px;
+}

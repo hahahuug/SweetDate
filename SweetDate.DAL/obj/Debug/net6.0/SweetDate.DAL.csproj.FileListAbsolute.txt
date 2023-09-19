@@ -1,0 +1,17 @@
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.DAL.deps.json
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.DAL.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.DAL.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.Domain.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.Domain.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.csproj.AssemblyReference.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.AssemblyInfoInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.AssemblyInfo.cs
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.csproj.CoreCompileInputs.cache
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.csproj.CopyComplete
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\refint\SweetDate.DAL.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.pdb
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\ref\SweetDate.DAL.dll
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\bin\Debug\net6.0\SweetDate.DAL.runtimeconfig.json
+C:\Users\alsu2\RiderProjects\SweetDate\SweetDate.DAL\obj\Debug\net6.0\SweetDate.DAL.genruntimeconfig.cache
